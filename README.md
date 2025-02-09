@@ -1,5 +1,7 @@
 # Experiment N°001 - Pitch shrinking
 
+## Summary
+
 The goal of this experiment is to "shrink" the pitches contained in an audio signal.
 
 Shrinking is the process by which pitches get closer to a designated reference pitch.
@@ -8,3 +10,8 @@ shrinking is 0.5 (0 => no shrinking, 1 => any pitch = reference pitch) then pitc
 below A4 will go up (e.g. A3 -> ~E4) and the pitches above will go down (e.g. A5 -> ~E5)
 
 NB: This is subject to changes as much of the implementation is to be defined in the experimentation.
+
+## Acknowledgment
+
+The [original pitch shifting code](https://github.com/JentGent/pitch-shift) that has been repurposed
+for this experiment was made by [JentGent](https://github.com/JentGent).
